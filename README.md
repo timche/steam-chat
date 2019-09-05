@@ -1,6 +1,6 @@
 # Steam Chat
 
-> Steam Chat desktop app for macOS and Linux
+> Steam Chat desktop app
 
 ![Steam Chat Screenshot](media/screenshot.png)
 
