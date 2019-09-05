@@ -1,0 +1,12 @@
+div[class*="SteamPageHeader"] {
+  -webkit-app-region: drag;
+}
+
+div[class*="SteamPageHeader"] {
+  display: flex;
+  justify-content: center;
+}
+
+div[class*="SteamPageHeader"] > *:not(:first-child) {
+  display: none;
+}
