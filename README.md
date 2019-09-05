@@ -4,8 +4,6 @@
 
 ![Steam Chat Screenshot](media/screenshot.png)
 
-Status: WIP
-
 ## Why?
 
 The Steam application on macOS has rendering issues in Steam Friends for me and is in general pain in the ass to use because of bugs.
