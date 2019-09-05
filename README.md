@@ -8,7 +8,7 @@ Status: WIP
 
 ## Why?
 
-The Steam application on macOS has rendering issues in Steam Friends for me and is general pain in the ass to use.
+The Steam application on macOS has rendering issues in Steam Friends for me and is in general pain in the ass to use because of bugs.
 
 ## Disclaimer
 
