@@ -10,6 +10,7 @@ debug({
 });
 
 let mainWindow: BrowserWindow;
+let isQuitting = false;
 
 if (!app.requestSingleInstanceLock()) {
   app.quit();
@@ -35,11 +36,29 @@ app.on("second-instance", () => {
 
   mainWindow.loadURL(STEAM_CHAT_URL);
 
+  mainWindow.on("close", e => {
+    if (!isQuitting) {
+      e.preventDefault();
+      mainWindow.blur();
+      mainWindow.hide();
+    }
+  });
+
   const { webContents } = mainWindow;
 
   webContents.on("dom-ready", () => {
     webContents.insertCSS(
       fs.readFileSync(path.join(__dirname, "..", "css", "app.css"), "utf8")
     );
+  });
+
+  app.on("activate", () => {
+    if (mainWindow) {
+      mainWindow.show();
+    }
+  });
+
+  app.on("before-quit", () => {
+    isQuitting = true;
   });
 })();
