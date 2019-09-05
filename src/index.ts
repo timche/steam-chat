@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
-import { app, BrowserWindow } from "electron";
+import { app, BrowserWindow, shell } from "electron";
 import debug = require("electron-debug");
 
 const STEAM_CHAT_URL = "https://steamcommunity.com/chat";
@@ -50,6 +50,15 @@ app.on("second-instance", () => {
     webContents.insertCSS(
       fs.readFileSync(path.join(__dirname, "..", "css", "app.css"), "utf8")
     );
+  });
+
+  webContents.on("new-window", (event, url) => {
+    event.preventDefault();
+    shell.openExternal(url);
+  });
+
+  webContents.on("will-navigate", event => {
+    event.preventDefault();
   });
 
   app.on("activate", () => {
