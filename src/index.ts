@@ -57,8 +57,10 @@ app.on("second-instance", () => {
     shell.openExternal(url);
   });
 
-  webContents.on("will-navigate", event => {
-    event.preventDefault();
+  webContents.on("will-navigate", (event, url) => {
+    if (url !== "https://steamcommunity.com/chat") {
+      event.preventDefault();
+    }
   });
 
   app.on("activate", () => {
