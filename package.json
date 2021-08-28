@@ -1,7 +1,7 @@
 {
   "name": "steam-chat",
   "productName": "Steam Chat",
-  "version": "0.2.2",
+  "version": "0.2.3-mt1",
   "description": "Steam Chat desktop app",
   "license": "MIT",
   "repository": "timche/steam-chat",
@@ -17,13 +17,13 @@
     }
   },
   "devDependencies": {
-    "@sindresorhus/tsconfig": "^0.4.0",
-    "electron": "^6.0.7",
-    "electron-builder": "^21.2.0",
-    "husky": "^3.0.5",
-    "prettier": "^1.18.2",
-    "pretty-quick": "^1.11.1",
-    "typescript": "^3.6.2"
+    "@sindresorhus/tsconfig": "^2.0.0",
+    "electron": "^13.2.3",
+    "electron-builder": "^22.11.7",
+    "husky": "^7.0.2",
+    "prettier": "^2.3.2",
+    "pretty-quick": "^3.1.1",
+    "typescript": "^4.4.2"
   },
   "dependencies": {
     "electron-debug": "^3.0.1"
