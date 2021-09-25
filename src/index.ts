@@ -1,13 +1,13 @@
 import * as fs from "fs";
 import * as path from "path";
 import { app, BrowserWindow, shell } from "electron";
-import debug = require("electron-debug");
+// import debug = require("electron-debug");
 
 const STEAM_CHAT_URL = "https://steamcommunity.com/chat";
 
-debug({
-  showDevTools: false
-});
+// debug({
+//   showDevTools: false
+// });
 
 let mainWindow: BrowserWindow;
 let isQuitting = false;
@@ -28,6 +28,8 @@ app.on("second-instance", () => {
 
 (async () => {
   await app.whenReady();
+
+  require('timers/promises').setTimeout(300);
 
   mainWindow = new BrowserWindow({
     title: app.getName(),
