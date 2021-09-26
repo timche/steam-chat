@@ -1,7 +1,7 @@
 {
   "name": "steam-chat",
   "productName": "Steam Chat",
-  "version": "0.2.3-mt3",
+  "version": "0.2.3-mt5",
   "description": "Steam Chat desktop app",
   "license": "MIT",
   "repository": "timche/steam-chat",
@@ -26,7 +26,9 @@
     "typescript": "^4.4.2"
   },
   "dependencies": {
-    "electron-debug": "^3.0.1"
+    "electron-debug": "^3.0.1",
+    "electron-online": "^1.0.0",
+    "v8-compile-cache": "^2.3.0"
   },
   "build": {
     "appId": "dev.timche.steam-chat",

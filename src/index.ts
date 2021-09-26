@@ -1,6 +1,12 @@
+require('v8-compile-cache');
+
 import * as fs from "fs";
 import * as path from "path";
 import { app, BrowserWindow, shell } from "electron";
+
+const ElectronOnline = require('electron-online');
+const connection = new ElectronOnline();
+
 // import debug = require("electron-debug");
 
 const STEAM_CHAT_URL = "https://steamcommunity.com/chat";
@@ -29,11 +35,11 @@ app.on("second-instance", () => {
 (async () => {
   await app.whenReady();
 
-  require('timers/promises').setTimeout(300);
-
   mainWindow = new BrowserWindow({
     title: app.getName(),
-    titleBarStyle: "hiddenInset"
+    titleBarStyle: "hiddenInset",
+    width: 1280,
+    height: 800
   });
 
   mainWindow.loadURL(STEAM_CHAT_URL);
@@ -74,4 +80,21 @@ app.on("second-instance", () => {
   app.on("before-quit", () => {
     isQuitting = true;
   });
+
+  let online = false;
+  connection.on('online', () => {
+    if (!online) {
+      mainWindow.reload();
+      online = true;
+    }
+  })
+
+  connection.on('offline', () => {
+    if (online) {
+      mainWindow.reload();
+      online = false;
+    }
+  })
+
+
 })();

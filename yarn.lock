@@ -739,6 +739,11 @@
     "keyboardevent-from-electron-accelerator" "^2.0.0"
     "keyboardevents-areequal" "^0.2.1"
 
+"electron-online@^1.0.0":
+  "integrity" "sha1-QYyoLeW5osQe3wJcE6JPRW+2RJY="
+  "resolved" "https://registry.npmjs.org/electron-online/-/electron-online-1.0.0.tgz"
+  "version" "1.0.0"
+
 "electron-publish@22.11.7":
   "integrity" "sha512-A4EhRRNBVz4SPzUlBrPO6BmuyDeI0pyprggPAV9rQ+SDVSnSB/WKPot9JwWMyArkGj3AUUTMNVT6hwZhMvhfqw=="
   "resolved" "https://registry.npmjs.org/electron-publish/-/electron-publish-22.11.7.tgz"
@@ -1988,6 +1993,11 @@
   "integrity" "sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8="
   "resolved" "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
   "version" "1.0.2"
+
+"v8-compile-cache@^2.3.0":
+  "integrity" "sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA=="
+  "resolved" "https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz"
+  "version" "2.3.0"
 
 "verror@^1.10.0":
   "integrity" "sha1-OhBcoXBTr1XW4nDB+CiGguGNpAA="
