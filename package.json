@@ -36,6 +36,12 @@
     "files": [
       "**/*",
       "!media${/*}"
-    ]
+    ],
+    "nsis": {
+        "differentialPackage": false
+    },
+    "dmg": {
+        "writeUpdateInfo": false
+    }
   }
 }
