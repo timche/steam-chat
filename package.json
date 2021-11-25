@@ -9,7 +9,7 @@
   "main": "dist-js",
   "scripts": {
     "start": "tsc && electron .",
-    "dist": "tsc && electron-builder --macos"
+    "dist": "tsc && electron-builder --macos --publish never"
   },
   "husky": {
     "hooks": {
@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@sindresorhus/tsconfig": "^2.0.0",
-    "electron": "^15.0.0",
+    "electron": "^16.0.2",
     "electron-builder": "^22.11.7",
     "husky": "^7.0.2",
     "prettier": "^2.3.2",
