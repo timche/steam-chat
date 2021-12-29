@@ -1,7 +1,7 @@
 {
   "name": "steam-chat",
   "productName": "Steam Chat",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Steam Chat desktop app",
   "license": "MIT",
   "repository": "timche/steam-chat",
@@ -38,10 +38,10 @@
       "!media${/*}"
     ],
     "nsis": {
-        "differentialPackage": false
+      "differentialPackage": false
     },
     "dmg": {
-        "writeUpdateInfo": false
+      "writeUpdateInfo": false
     }
   }
 }
