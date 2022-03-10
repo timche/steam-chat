@@ -738,7 +738,7 @@
   dependencies:
     "jake" "^10.6.1"
 
-"electron-builder@^22.11.7":
+"electron-builder@^22.14.13":
   "integrity" "sha512-3fgLxqF2TXVKiUPeg74O4V3l0l3j7ERLazo8sUbRkApw0+4iVAf2BJkHsHMaXiigsgCoEzK/F4/rB5rne/VAnw=="
   "resolved" "https://registry.npmjs.org/electron-builder/-/electron-builder-22.14.13.tgz"
   "version" "22.14.13"
@@ -756,7 +756,7 @@
     "update-notifier" "^5.1.0"
     "yargs" "^17.0.1"
 
-"electron-debug@^3.0.1":
+"electron-debug@^3.2.0":
   "integrity" "sha512-7xZh+LfUvJ52M9rn6N+tPuDw6oRAjxUj9SoxAZfJ0hVCXhZCsdkrSt7TgXOiWiEOBgEV8qwUIO/ScxllsPS7ow=="
   "resolved" "https://registry.npmjs.org/electron-debug/-/electron-debug-3.2.0.tgz"
   "version" "3.2.0"
@@ -814,10 +814,10 @@
     "lazy-val" "^1.0.5"
     "mime" "^2.5.2"
 
-"electron@^17.0.1":
-  "integrity" "sha512-CBReR/QEOpgwMdt59lWCtj9wC8oHB6aAjMF1lhXcGew132xtp+C5N6EaXb/fmDceVYLouziYjbNcpeXsWrqdpA=="
-  "resolved" "https://registry.npmjs.org/electron/-/electron-17.0.1.tgz"
-  "version" "17.0.1"
+"electron@^17.1.2":
+  "integrity" "sha512-hqKQaUIRWX5Y2eAD8FZINWD/e5TKdpkbBYbkcZmJS4Bd1PKQsaDVc9h5xoA8zZQkPymE9rss+swjRpAFurOPGQ=="
+  "resolved" "https://registry.npmjs.org/electron/-/electron-17.1.2.tgz"
+  "version" "17.1.2"
   dependencies:
     "@electron/get" "^1.13.0"
     "@types/node" "^14.6.2"
@@ -1134,7 +1134,7 @@
   "resolved" "https://registry.npmjs.org/human-signals/-/human-signals-1.1.1.tgz"
   "version" "1.1.1"
 
-"husky@^7.0.2":
+"husky@^7.0.4":
   "integrity" "sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ=="
   "resolved" "https://registry.npmjs.org/husky/-/husky-7.0.4.tgz"
   "version" "7.0.4"
@@ -1603,12 +1603,12 @@
   "resolved" "https://registry.npmjs.org/prepend-http/-/prepend-http-2.0.0.tgz"
   "version" "2.0.0"
 
-"prettier@^2.3.2", "prettier@>=2.0.0":
+"prettier@^2.5.1", "prettier@>=2.0.0":
   "integrity" "sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg=="
   "resolved" "https://registry.npmjs.org/prettier/-/prettier-2.5.1.tgz"
   "version" "2.5.1"
 
-"pretty-quick@^3.1.1":
+"pretty-quick@^3.1.3":
   "integrity" "sha512-kOCi2FJabvuh1as9enxYmrnBC6tVMoVOenMaBqRfsvBHB0cbpYHjdQEpSglpASDFEXVwplpcGR4CLEaisYAFcA=="
   "resolved" "https://registry.npmjs.org/pretty-quick/-/pretty-quick-3.1.3.tgz"
   "version" "3.1.3"
@@ -1970,10 +1970,10 @@
   "resolved" "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   "version" "0.0.6"
 
-"typescript@^4.4.2":
-  "integrity" "sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA=="
-  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.5.5.tgz"
-  "version" "4.5.5"
+"typescript@^4.6.2":
+  "integrity" "sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg=="
+  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.6.2.tgz"
+  "version" "4.6.2"
 
 "unique-string@^2.0.0":
   "integrity" "sha512-uNaeirEPvpZWSgzwsPGtU2zVSTrn/8L5q/IexZmH0eH6SA73CmAA5U4GwORTxQAZs95TAXLNqeLoPPNO5gZfWg=="
