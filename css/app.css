@@ -10,3 +10,10 @@ div[class*="SteamPageHeader"] {
 div[class*="SteamPageHeader"] > *:not(:first-child) {
   display: none;
 }
+
+div[class*="chatHistoryScroll"],
+div[class*="friendlistListContainer"],
+div[class*="MemberListColumn"] > div[class*="Panel"] > div:first-child
+{
+  transform: translate3d(0, 0, 0);
+}
